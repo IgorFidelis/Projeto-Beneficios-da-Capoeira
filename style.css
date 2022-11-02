@@ -54,3 +54,7 @@ body{
     text-align: justify;
     border-bottom: 1px solid black;
 }
+
+li:nth-child(odd) {
+    background-color:rgba(87, 87, 87, 0.3);
+}
