@@ -13,7 +13,7 @@ body{
     position: relative;
 }
 
-header{
+.cabeca{
     display: flex;
     align-items: center;
     position: absolute;
@@ -25,12 +25,12 @@ header{
     padding-right: 10px;
 }
 
-header > img{
+.cabeca > img{
     height: 20vh;
     padding: 15px;
     
 }
-main{
+.corpo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@ main{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-li{
+.lista li{
     padding-bottom: 10px;
     padding-top: 5PX;
     overflow:hidden;
