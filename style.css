@@ -60,3 +60,32 @@ body{
     align-items: center;
     justify-content: center;
 }
+/* tamalho celulcar */
+@media (min-width:320px) and (max-width:480px) {
+     body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+     }
+
+     .cabeca > h1{
+        font-size: 15px;
+     }
+     
+     .corpo p{
+        font-size: 5px;
+     }
+
+    }
+/* tamalho tablet */
+@media (min-width:481px) and (max-width:768px) {
+    .corpo p {
+        font-size: 11px;
+    }
+}
+/* tamanho laptop */
+@media (min-width:769px) and (max-width:1024) {
+    .corpo  {
+        
+    }
+}
