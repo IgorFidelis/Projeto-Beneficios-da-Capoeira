@@ -42,7 +42,8 @@ body{
 }
 
 .corpo p {
-padding: 4px;
+    padding: 4px;
+    padding-left: 15px;
 }
 
 .corpo p:nth-child(odd){
