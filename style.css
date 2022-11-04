@@ -6,7 +6,7 @@
 }
 body{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     height: 100vh;
@@ -65,13 +65,17 @@ body{
      body{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
      }
 
      .cabeca > h1{
         font-size: 15px;
      }
      
+     .corpo{
+        height: 42vh;
+     }
+
      .corpo p{
         font-size: 5px;
      }
@@ -85,7 +89,5 @@ body{
 }
 /* tamanho laptop */
 @media (min-width:769px) and (max-width:1024) {
-    .corpo  {
-        
-    }
+    
 }
