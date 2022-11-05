@@ -19,6 +19,7 @@ body{
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     padding-right: 10px;
+    width: 50%;
 }
 
 .cabeca > img{
@@ -36,14 +37,15 @@ body{
     font-weight: bolder;
     border-radius: 15px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    width: 40vw;
-    height: 60vh;
+    width: 40%;
+    height: 60%;
 
 }
 
 .corpo p {
-    padding: 4px;
-    
+    padding: 0.6%;
+    text-align: left;
+    font-size: 100%;
 }
 
 .corpo p:nth-child(odd){
@@ -67,27 +69,32 @@ body{
         flex-direction: column;
         justify-content: space-evenly;
      }
+     .cabeca{
+        width: 75%;
+     }
 
      .cabeca > h1{
         font-size: 15px;
      }
      
      .corpo{
-        height: 42vh;
+        height: 50%;
+        width: 65%;
      }
 
      .corpo p{
-        font-size: 5px;
+        font-size: 14px;
+        padding: 1.5%;
      }
 
     }
 /* tamalho tablet */
-@media (min-width:481px) and (max-width:768px) {
+/* @media (min-width:481px) and (max-width:768px) {
     .corpo p {
         font-size: 11px;
     }
-}
+} */
 /* tamanho laptop */
-@media (min-width:769px) and (max-width:1024) {
+/* @media (min-width:769px) and (max-width:1024) {
     
-}
+} */
