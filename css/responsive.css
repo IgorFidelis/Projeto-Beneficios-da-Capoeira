@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    .conteiner{
+        width: 80%;
+    }
+ 
+    .conteiner .titulo img{
+        width: 20%;
+    }
+}
+
+@media (max-width: 425px){
+    .conteiner{
+        width: 100%;
+    }
+
+    .conteiner .conteudo{
+        padding: 0 10px;
+    }
+}
